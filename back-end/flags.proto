@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+service FlagService {
+    rpc GetAll (Empty) returns (FlagList) {}
+    rpc Get (FlagRequestId) returns (Flag) {}
+    rpc Insert (Flag) returns (Flag) {}
+    rpc Update (Flag) returns (Flag) {}
+    rpc Remove (FlagRequestId) returns (Empty) {}
+}
+
+message Empty {}
+
+message Flag {
+    string id = 1;
+    string answer = 2;
+}
+
+message FlagList {
+    repeated Flag flags = 1;
+}
+
+message FlagRequestId {
+    string id = 1;
+}
