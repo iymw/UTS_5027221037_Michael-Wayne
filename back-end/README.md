@@ -241,3 +241,21 @@ Use `nodemon server.js` inside server folder to start the server, and `nodemon c
 ![ss1](./images/ss1.png)
 ![ss2](./images/ss2.png)
 ![ss3](./images/ss3.png)
+
+## Requests
+Use Postman to perform a GET, POST, PUT, and DELETE requests
+
+1. GET Request
+![ss4](./images/ss4.png)
+
+2. GET by ID Request
+![ss5](./images/ss5.png)
+
+3. POST Request
+![ss6](./images/ss6.png)
+
+4. PUT Request
+![ss6](./images/ss7.png)
+
+5. DELETE Request
+![ss6](./images/ss8.png)
